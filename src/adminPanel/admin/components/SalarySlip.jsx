@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../assets/Techdigi_logo.png"; // ❗ Make sure this path is correct
+import logo from "/images/TechDigi_Logo.png"; // ❗ Make sure this path is correct
 
 // --- HELPER FUNCTIONS (No changes here) ---
 const formatCurrency = (amount = 0) =>

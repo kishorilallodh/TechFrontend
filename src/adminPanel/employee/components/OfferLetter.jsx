@@ -1,10 +1,10 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaGlobe } from "react-icons/fa";
-import companyLogo from "../../../assets/TechDigi_Logo.png";
-import signatureImg from "../../../assets/sign.png";
-import stampImg from "../../../assets/seal.png";
-import backgroundImg from "../../../assets/5opacity.jpg";
-import img from "../../../assets/phone.jpg";
+import companyLogo from "/images/TechDigi_Logo.png";
+import signatureImg from "/images/sign.png";
+import stampImg from "/images/seal.png";
+import backgroundImg from "/images/5opacity.jpg";
+import img from "/images/phone.jpg";
 const OfferLetter = ({ data }) => {
   if (!data) return null;
 

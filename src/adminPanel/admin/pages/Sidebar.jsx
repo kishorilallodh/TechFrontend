@@ -15,7 +15,7 @@ import {
   BuildingOfficeIcon,     // Job Section ke liye
 } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
-import img from "../../../assets/TechDigi_Logo.png";
+import img from "/images/TechDigi_Logo.png";
 import { logout, reset } from "../../../features/auth/authSlice";
 
 const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {

@@ -7,7 +7,7 @@ import { EnvelopeIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
 
 // Apni illustration image ko import karein
-import illustration from '../../assets/forgot2.png'; // ❗ Yahan apni new image ka path daalein
+import illustration from '/images/forgot2.png'; // ❗ Yahan apni new image ka path daalein
 
 const ForgotPassword = () => {
     const [email, setEmail] = useState('');

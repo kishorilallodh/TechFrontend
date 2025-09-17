@@ -7,7 +7,7 @@ import { CheckCircleIcon, LockClosedIcon, EyeIcon, EyeSlashIcon } from '@heroico
 import { motion } from 'framer-motion';
 
 // Apni illustration image ko import karein
-import illustration from '../../assets/password2.png'; // ❗ Yahan apni new image ka path daalein
+import illustration from '/images/password2.png'; // ❗ Yahan apni new image ka path daalein
 
 const ResetPassword = () => {
     const [password, setPassword] = useState('');

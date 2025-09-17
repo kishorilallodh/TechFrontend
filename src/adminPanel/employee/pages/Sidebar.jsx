@@ -13,7 +13,7 @@ import {
   ArrowRightOnRectangleIcon,
   EnvelopeIcon
 } from "@heroicons/react/24/solid";
-import img from "../../../assets/TechDigi_Logo.png";
+import img from "/images/TechDigi_Logo.png";
 import { logout, reset } from "../../../features/auth/authSlice";
 import { MdOutlineCurrencyRupee } from "react-icons/md";
 const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {

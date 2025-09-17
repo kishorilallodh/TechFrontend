@@ -11,7 +11,7 @@ import {
   FaSignInAlt, // Login icon
 } from "react-icons/fa";
 
-import TechDigiLogo from "../../assets/TechDigi_Logo.png";
+import TechDigiLogo from "/images/TechDigi_Logo.png";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);

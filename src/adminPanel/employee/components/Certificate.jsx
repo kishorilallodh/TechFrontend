@@ -1,21 +1,18 @@
 import React from 'react';
-import companyLogo from '../../../assets/TechDigi_Logo.png';
-import signatureImg from '../../../assets/sign.png';
-import stampImg from '../../../assets/seal.png';
-import certificateBg from "../../../assets/internshipC.png";
+import companyLogo from '/images/TechDigi_Logo.png';
+import signatureImg from '/images/sign.png';
+import stampImg from '/images/seal.png';
+import certificateBg from "/images/InternshipC.png";
 
 const Certificate = ({ request }) => {
     if (!request) return null;
 
-    // highlight-start
-    // Helper function to format dates nicely
     const formatDate = (dateString) => {
         if (!dateString) return '';
         // 'en-GB' locale provides the DD/MM/YYYY format by default.
         return new Date(dateString).toLocaleDateString('en-GB'); 
     };
-    // highlight-end
-
+ 
     return (
         <div
             className="relative w-full h-0 pb-[141.42%] shadow-lg"

@@ -15,10 +15,10 @@ import {
 } from "react-icons/fa";
 import OurJourney from "../components/ourJourney/OurJourney";
 import { motion } from "framer-motion";
-import RajSir from "../assets/RajSir.jpg";
-import DeepikaMam from "../assets/DeepikaMam.jpg";
-import kartikSir from "../assets/kartikSir.jpg";
-import VirajSir from "../assets/VirajSir.jpg";
+import RajSir from "/images/RajSir.jpg";
+import DeepikaMam from "/images/DeepikaMam.jpg";
+import kartikSir from "/images/kartikSir.jpg";
+import VirajSir from "/images/VirajSir.jpg";
 
 export default function AboutPage() {
   const location = useLocation();

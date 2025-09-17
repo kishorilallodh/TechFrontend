@@ -2,10 +2,10 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import webDevImg from "../assets/webdev.png";
-import appDevImg from "../assets/appdev.png";
-import digitalMarketingImg from "../assets/digitalmark.png";
-import crmImg from "../assets/crm1.png";
+import webDevImg from "/images/webdev.png";
+import appDevImg from "/images/appdev.png";
+import digitalMarketingImg from "/images/digitalmark.png";
+import crmImg from "/images/crm1.png";
 import { Code, Clock, Users, Zap } from "lucide-react";
 import {
   FaAngular,

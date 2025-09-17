@@ -19,7 +19,7 @@ import {
   FiClipboard,
   FiAward,
 } from "react-icons/fi";
-import logo from "../../../assets/banerimg.webp"; 
+import logo from "/images/banerimg.webp"; 
 
 // --- Reusable Sub-components for a Cleaner UI ---
 

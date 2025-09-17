@@ -6,7 +6,7 @@ import {
   BellIcon,
   ChevronDownIcon,
 } from "@heroicons/react/24/outline";
-import profileImg from "../../../assets/crm.jpg"; // Fallback image
+import profileImg from "/images/crm.jpg"; // F/imaallback image
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { logout, reset } from "../../../features/auth/authSlice";
